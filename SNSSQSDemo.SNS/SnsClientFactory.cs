@@ -11,7 +11,7 @@ namespace SNSSQSDemo.SNS
         {
             var amazonSnsClient = new AmazonSimpleNotificationServiceClient(new AmazonSimpleNotificationServiceConfig()
             {
-                ServiceURL = "http://localhost:4575"
+                ServiceURL = settings.ServiceURL
             });
 
             return amazonSnsClient;

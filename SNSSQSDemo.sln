@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SNSSQSDemo", "SNSSQSDemo\SNSSQSDemo.csproj", "{6ECF3EBA-E7DF-48CC-B0CA-35D90CFB9BCB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNSSQSDemo.SNS", "SNSSQSDemo.SNS\SNSSQSDemo.SNS.csproj", "{5DEC4E9E-B817-4884-9F9D-B6A7A7F6B90E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNSSQSDemo.SQS", "SNSSQSDemo.SQS\SNSSQSDemo.SQS.csproj", "{6F187964-E36D-47A6-AF09-2B1096CFD84B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6ECF3EBA-E7DF-48CC-B0CA-35D90CFB9BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6ECF3EBA-E7DF-48CC-B0CA-35D90CFB9BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6ECF3EBA-E7DF-48CC-B0CA-35D90CFB9BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6ECF3EBA-E7DF-48CC-B0CA-35D90CFB9BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEC4E9E-B817-4884-9F9D-B6A7A7F6B90E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEC4E9E-B817-4884-9F9D-B6A7A7F6B90E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEC4E9E-B817-4884-9F9D-B6A7A7F6B90E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEC4E9E-B817-4884-9F9D-B6A7A7F6B90E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F187964-E36D-47A6-AF09-2B1096CFD84B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F187964-E36D-47A6-AF09-2B1096CFD84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F187964-E36D-47A6-AF09-2B1096CFD84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F187964-E36D-47A6-AF09-2B1096CFD84B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
